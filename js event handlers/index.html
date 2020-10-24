@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Event Handlers</title>
+        <script src="handler(js)/event(js).js"></script>
+    </head>
+    <body>
+       <form name="Myform" onsubmit="return(validate());">
+           <div id="Qone">
+               <h4><b>Please choose wich apply to you.</b></h4>
+               <input type="checkbox" id="check1" name="check1" value="female">
+               <label for="check1">Female</label><br>
+               <input type="checkbox" id="check2" name="check2" value="male">
+               <label for="check2">Male</label><br>
+           </div>
+
+           <div id="Qtwo">
+               <h4><b>Please choose Language.</b></h4>
+               <input type="checkbox" id="Check1" name="Check1" value="en">
+               <label for="Check1">English</label><br>
+               <input type="checkbox" id="Check2" name="Check2" value="es">
+               <label for="Check2">Spanish</label><br>
+               <input type="checkbox" id="Check3" name="Check3" value="other">
+               <label for="Check3">Other</label><br><br>
+           </div>
+
+           <div>
+               <input type="submit" value="Submit">
+           </div>
+       </form>
+    </body>
+</html>
