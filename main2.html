@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Javascript practice</title>
+        <script type="text/javascript">
+           var count=0;
+           function countVowels(name) {
+               for (var i=0;i<name.length;i++) {
+                   if (name[i]=="a"|| name[i]=="e"|| name[i]=="i"|| name[i]=="o"|| name[i]=="u")
+                   count=count+1;
+               }
+           document.write("Hello " + name +"!!! your name has "+ count +" vowels.");
+        }
+        var myName= prompt("Please enter your name");
+        countVowels(myName);
+        </script>
+        <style>
+            #myForm {
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="myForm">
+           <form id="countVowls">
+               <label>Your Name!</label>
+               <input type="text" id="name">
+               <input type="submit" name="Submit">
+           </form>
+       </div>
+    </body>
+</html>

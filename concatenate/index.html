@@ -3,9 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Event Project</title>
-        <script src="js/main.js"></script>
     </head>
     <body>
             <p id="Concatenate" onclick="myFunction()">Click Me</p>
+            <script>
+                function myFunctio() {
+    var sentence = "This is a sentence about ";
+    sentence += "putting two halves of a sentence together.";
+    document.getElementById("Concatenate").innerHTML = sentence;
+}
+
+            </script>
     </body>
 </html>
