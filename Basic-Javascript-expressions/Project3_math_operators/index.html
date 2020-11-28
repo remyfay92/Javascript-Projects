@@ -6,9 +6,33 @@
    <script type="text/javascript" src="Js/main.js"></script>
    </head>
    <body>
-      <p id="Math">This is a paragraph about Math, Would you like to know the answer to three hundred and five minus eighty-two? click here to find out.</p>
-      <script>
-      document.getElementById("Math").addEventListener("click", add_Function);
-      </script>
+      <div>
+         <p id="Math">This is a paragraph about Math, Would you like to see a math problem? click here to find out.</p>
+         <script>
+            document.getElementById("Math").addEventListener("click", add_Function);
+         </script>
+      </div>
+
+      <div>
+          <p id="Math2">Now we will show you a dividing equation, simply click.</p>
+          <script>
+              document.getElementById("Math2").addEventListener("click", div_Function);
+          </script>
+      </div>
+
+      <div>
+          <p id="Math3">Click here to revel numbers</p>
+          <script>
+              document.getElementById("Math3").addEventListener("click", up_Function);
+          </script>
+      </div>
+
+      <div>
+          <p id="Math4">and Here for the 2 number</p>
+          <script>
+              document.getElementById("Math4").addEventListener("click", down_Function);
+          </script>
+      </div>
+
    </body>
 </html>
