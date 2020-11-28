@@ -1,3 +1,4 @@
-function thisFunction() {
-    document.getElementById("element") = "This is the diffrent text!!";
-}
+
+    function thisFunction() {
+        document.getElementById("ex").innerHTML="This text has changed because you have clicked!";
+    }
