@@ -7,7 +7,16 @@
     </head>
 
     <body>
-        <button onclick="N_T_Function()">Click here</button>
-        <p id="New_and_This"></p>
+
+        <p>Pease choose either Comp_1 or Comp_2 and write your choice below</p>
+        <input id="exa1" value="write choice here">
+        <button onclick ="N_T_Function()">Click here.</button>
+        <p id="New_This"></p>
+    
+
+        <p id="para" onload="displayFunction()"></p>
+        <script>
+            document.getElementById("para").addEventListener("onload", displayFunction);
+        </script>
     </body>
 </html>
